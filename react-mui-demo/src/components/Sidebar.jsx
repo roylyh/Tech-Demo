@@ -1,10 +1,12 @@
 import React from 'react'
+import {Box} from "@mui/material"
 
 const Sidebar = () => {
   return (
-    <div>
-      
-    </div>
+    <Box bgcolor="skyblue" flex={1} p={2} sx={{display:{xs:"none",sm:"block"}}}>
+      {/* breakpoints xs sm md lg xl */}
+      Sidebar
+    </Box>
   )
 }
 
